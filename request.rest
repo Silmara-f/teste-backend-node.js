@@ -1,0 +1,117 @@
+Post http://localhost:3000/api/services
+Content-Type: application/json
+
+   {
+      "name": "Algum serviço",
+    "description": "Alguma descrição",
+    "price": 1400,
+    "image":"https://www.nicepng.com/png/detail/153-1535407_blue-butterfly-png-download-borboleta-azul-png.png"
+    }
+       
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/id     
+//coloque o numero do id no lugar de id
+
+###
+DELETE http://localhost:3000/api/services/id
+
+###
+PUT  http://localhost:3000/api/services/id 
+Content-Type: application/json
+
+{ 
+   "name": "Teste Atualização",
+    "description": "Alguma descrição",
+    "price": 2500,
+    "image": //link de imagem} 
+
+}  
+###
+Post http://localhost:3000/api/paties
+Content-Type: application/json 
+
+{
+
+  "title" : "Meu evento",
+  "author": "Matheus",
+  "description":"Uma festa de aniversário",
+  "budget": 9000,
+  "image":[
+   {
+ 
+
+     "name": "Algum serviço",
+    "description": "Alguma descrição",
+    "price": 1400,
+    "image"://link//
+    },
+
+    
+{
+
+    "name": "Algum serviço",
+    "description": "Alguma descrição",
+    "price": 1400,
+    "image"://link//
+    },
+{
+
+   "name": "Algum serviço",
+    "description": "Alguma descrição",
+    "price": 1400,
+    "image"://link//
+     },
+     
+   ]
+
+}
+
+
+###
+GET  http://localhost:3000/api/
+
+###
+GET  http://localhost:3000/api/parties/id 
+ 
+###
+DELETE   http://localhost:3000/api/parties/id 
+
+###
+PUT   http://localhost:3000/api/parties/id 
+Content-Type: application/json 
+
+{
+
+  "title" : "Meu evento",
+  "author": "Matheus",
+  "description":"Uma festa de aniversário",
+  "budget": 9000,
+  "image"://link//
+} 
+{
+
+   "name": "Algum serviço",
+    "description": "Alguma descrição",
+    "price": 1400,
+    "image"://link//
+}
+    
+{
+
+    "name": "Algum serviço",
+    "description": "Alguma descrição",
+    "price": 1400,
+    "image"://link//
+}
+{
+
+   "name": "Algum serviço",
+    "description": "Alguma descrição",
+    "price": 1400,
+    "image"://link//
+ }
+
+
